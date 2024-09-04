@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	scroll-behavior: smooth;
+}
+
+:root[data-theme='light'] {
+	--bg-main: 255, 255, 255;
+	--color-1: 0, 0, 0;
+	--color-2: 142, 91, 199;
+	--color-3: 70, 79, 75;
+	--color-4: 96, 10, 101;
+}
+
+:root[data-theme='dark'] {
+	--bg-main: 10, 3, 17;
+	--color-1: 255, 255, 255;
+	--color-2: 142, 91, 199;
+	--color-3: 175, 173, 173;
+	--color-4: 96, 10, 101;
+}
+
+* {
+	font-family: 'Poppins', sans-serif;
+	color: var(--color-1);
+}
