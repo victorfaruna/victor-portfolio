@@ -1,42 +1,30 @@
-<script lang="ts">
-	import ProjectCard from './ProjectCard.svelte';
-	import floxImage from '$src/assets/images/flox.webp';
-	import fontzeroImage from '$src/assets/images/fontzero.webp';
+<script>
+	import htmlLogo from '$src/assets/logos/html.png';
+	import cssLogo from '$src/assets/logos/css.png';
+	import jsLogo from '$src/assets/logos/javascript.png';
 
-	let items = [
-		{
-			id: 1,
-			delay: '0ms',
-			image: floxImage,
-			bg: 'bg-[yellow]',
-			title: 'Thefloxtv',
-			desc: 'An online platform offering free access to a vast collection of movies and series, allowing users to stream their favorite content in high-quality without any subscription fees or hidden costs.'
-		},
-		{
-			id: 2,
-			delay: '300ms',
-			image: fontzeroImage,
-			bg: 'bg-[lightblue]',
-			title: 'Font Zer0',
-			desc: `Gain unlimited access to FontAwesom's premium icons completely free of charge, allowing you to enhance your projects with high-quality, professional icons without any cost or subscription.`
-		},
-		{
-			id: 3,
-			delay: '500ms',
-			image: fontzeroImage,
-			bg: 'bg-[lightblue]',
-			title: 'Graphic Design',
-			desc: 'I craft visually engaging designs, blending creativity with technical precision to produce compelling graphics that enhance user experiences and brand identity.'
-		}
+	import ProjectCard from '$src/components/ProjectCard.svelte';
+	const items1 = [
+		{ image: htmlLogo, title: 'Thefloxtv', desc: 'Watch free movies and tv shows' },
+		{ image: htmlLogo, title: 'Thefloxtv', desc: 'Watch free movies and tv shows' },
+		{ image: htmlLogo, title: 'Thefloxtv', desc: 'Watch free movies and tv shows' }
 	];
 </script>
 
-<div class={`w-full my-[8%] sm:my-[10%]`}>
-	<p class="text-[40px] sm:text-[25px] text-color-1 font-semibold text-center mb-10">
-		My Recent Projects<span class="text-color-2">.</span>
+<div id="stackSection" class={`stack-container w-full flex flex-col gap-5 py-[2%] sm:py-[10%]`}>
+	<div class="text-center">
+		<p
+			class="py-2 px-6 bg-color-1/10 rounded-lg text-center inline-block text-color-1/90 text-[13px] shadow-sm"
+		>
+			Work
+		</p>
+	</div>
+	<p class="text-[20px] sm:text-[14px] text-color-2 font-medium text-center">
+		Things I&apos;ve built so far:
 	</p>
-	<div class="flex gap-5 sm:flex-col">
-		{#each items as item}
+
+	<div class="w-full sm:mt-5 flex gap-5 flex-wrap justify-center sm:px-[5%]">
+		{#each items1 as item}
 			<ProjectCard {...item} />
 		{/each}
 	</div>

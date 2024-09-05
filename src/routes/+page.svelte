@@ -8,6 +8,6 @@
 <div class="global-conatiner w-full h-full px-[5.5%] sm:px-[6%]">
 	<FrontMain />
 	<Skills />
-	<Services />
 	<Projects />
+	<Services />
 </div>

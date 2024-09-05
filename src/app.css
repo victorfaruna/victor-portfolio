@@ -16,7 +16,7 @@ html {
 
 :root[data-theme='dark'] {
 	/* --bg-main: 15, 8, 22; */
-	--bg-main: 30, 30, 30;
+	--bg-main: 25, 25, 25;
 	--color-1: 255, 255, 255;
 	--color-2: 142, 91, 199;
 	--color-3: 175, 173, 173;
@@ -27,7 +27,7 @@ html {
 	font-family: 'Poppins', sans-serif;
 	color: var(--color-1);
 	background-color: rgba(var(--bg-main));
-	background-image: radial-gradient(rgba(var(--color-1), 0.1) 2px, transparent 0);
+	background-image: radial-gradient(rgba(var(--color-1), 0.05) 2px, transparent 0);
 	background-size: 30px 30px;
 	background-position: -5px -5px;
 }
