@@ -9,46 +9,40 @@
 	import jqueryLogo from '$src/assets/logos/jquery.png';
 	import sqlLogo from '$src/assets/logos/sql.png';
 	import svelteLogo from '$src/assets/logos/svelte.png';
-	import StackItem from './StackItem.svelte';
-
+	import SkillItem from '$components/SkillItem.svelte';
 	const items = [
-		htmlLogo,
-		cssLogo,
-		jsLogo,
-		phpLogo,
-		reactLogo,
-		nextjsLogo,
-		tailwindLogo,
-		jqueryLogo,
-		sqlLogo,
-		svelteLogo
+		{ name: 'HTML', src: htmlLogo },
+		{ name: 'CSS', src: cssLogo },
+		{ name: 'JavaScript', src: jsLogo },
+		{ name: 'PHP', src: phpLogo },
+		{ name: 'React', src: reactLogo },
+		{ name: 'Next.js', src: nextjsLogo },
+		{ name: 'Tailwind', src: tailwindLogo },
+		{ name: 'jQuery', src: jqueryLogo },
+		{ name: 'SQL', src: sqlLogo },
+		{ name: 'Svelte', src: svelteLogo }
 	];
 </script>
 
-<div
-	id="stackSection"
-	class={`stack-container w-full transition-all duration-500 delay-0 h-auto flex py-[2%] sm:py-[10%] sm:flex-col`}
->
-	<div class="left w-full">
-		<p class="text-[20px] text-color-2 font-medium mb-8">
-			Tech Stack<span class="text-color-1">.</span>
-		</p>
-		<p class="text-[13px] text-color-3 font-medium mb-8">
-			I specialize in building dynamic, responsive web applications using a variety of modern
-			technologies. My core stack includes HTML, CSS, JavaScript and React for frontend development,
-			with a strong focus on React and Next.js for creating seamless, high-performance user
-			experiences. I also have experience in mobile app development using React Native, delivering
-			cross-platform solutions. On the backend, I work with Python and PHP to develop robust
-			server-side functionality.
+<div id="stackSection" class={`stack-container w-full flex flex-col gap-10 py-[2%] sm:py-[10%]`}>
+	<div class="text-center">
+		<p
+			class="py-2 px-6 bg-color-1/10 rounded-lg text-center inline-block text-color-1/90 text-[12px] font-thin shadow-sm"
+		>
+			Skills
 		</p>
 	</div>
-	<div class="right w-full px-[8%] sm:px-0 sm:mt-5">
-		<p class="text-[40px] sm:text-[25px] text-color-1 font-semibold text-center">
-			My Stack<span class="text-color-2">.</span>
-		</p>
-		<div class="w-ful grid grid-cols-4 gap-6 sm:gap-3 p-3">
+	<p
+		class="text-[35px] sm:text-[18px] text-color-2 font-medium text-center"
+		style="text-shadow: 0px 0px 5px black;"
+	>
+		The Skills, tools and technologies <br />i am really good at:
+	</p>
+
+	<div class="right w-full px-[8%] sm:px-0 sm:mt-5 flex flex-col items-center">
+		<div class="w-[50%] sm:w-full grid grid-cols-5 sm:grid-cols-4 gap-x-8 sm:gap-4 p-3">
 			{#each items as item}
-				<StackItem src={item} />
+				<SkillItem {...item} />
 			{/each}
 		</div>
 	</div>

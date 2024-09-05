@@ -8,9 +8,9 @@
 >
 	<div class={`w-full flex h-full flex-row sm:h-auto sm:flex-col-reverse sm:mb-14 `}>
 		<div class="left w-full h-full sm:h-auto flex flex-col justify-around sm:gap-6">
-			<div class="flex flex-col sm:gap-6">
-				<p class="text-[50px] text-color-1 sm:text-[30px]">
-					<span class="text-color-1/70">Hi, i&apos;m</span>
+			<div class="flex flex-col gap-3 sm:gap-6">
+				<p class="text-[60px] text-color-1 sm:text-[30px] leading-none">
+					<span class="text-[50px] sm:text-[40px] text-color-1/70">Hi, i&apos;m</span>
 					<br />
 					<span class="font-semibold">Victor Faruna</span><span class="text-color-2">.</span>
 				</p>
