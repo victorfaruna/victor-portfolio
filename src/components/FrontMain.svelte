@@ -4,15 +4,15 @@
 </script>
 
 <main class={`w-full h-[calc(100vh-120px)] sm:h-auto ${inView ? 'revealTrans' : 'hiddenTrans'}`}>
-	<div class={`w-full flex h-full flex-row sm:h-auto sm:flex-col-reverse sm:mb-10 `}>
-		<div class="left w-full h-full sm:h-auto flex flex-col justify-around sm:gap-10">
-			<div>
-				<p class="text-[50px] text-color-1 sm:text-[30px] sm:mb-[10px] sm:text-center">
+	<div class={`w-full flex h-full flex-row sm:h-auto sm:flex-col-reverse sm:mb-14 `}>
+		<div class="left w-full h-full sm:h-auto flex flex-col justify-around sm:gap-6">
+			<div class="flex flex-col sm:gap-6">
+				<p class="text-[50px] text-color-1 sm:text-[30px]">
 					<span class="text-color-1/70">Hi, i&apos;m</span>
 					<br />
 					<span class="font-semibold">Victor Faruna</span><span class="text-color-2">.</span>
 				</p>
-				<p class="text-[15px] sm:text-[14px] text-color-3 font-medium sm:text-center">
+				<p class="text-[15px] sm:text-[14px] text-color-3 font-medium">
 					A passionate{' '}
 					<span class="text-color-2 text-shadow-xl">&lt;Fullstack Web Developer/&gt;</span>{' '}
 					with 4+ years experience creating visually stunning and performant websites.

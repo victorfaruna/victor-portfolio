@@ -7,7 +7,7 @@
 	<div
 		class="inner w-full p-3 bg-main rounded-2xl border-[1.5px] border-color-1/5 flex justify-between shadow-xl shadow-color-1/[0.05]"
 	>
-		<div class="logo text-color-1 text-[22px] font-medium font-sans">
+		<div class="logo text-color-1 text-[22px] sm:text-[18px] font-medium font-sans">
 			<a href={`/`}>
 				<span class="text-color-2">&lt;V</span>ictor<span class="text-color-2">/&gt;</span></a
 			>
