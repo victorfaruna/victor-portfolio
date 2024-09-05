@@ -3,7 +3,9 @@
 	let inView = true;
 </script>
 
-<main class={`w-full h-[calc(100vh-120px)] sm:h-auto ${inView ? 'revealTrans' : 'hiddenTrans'}`}>
+<main
+	class={`w-full sm:mt-10 h-[calc(100vh-120px)] sm:h-auto ${inView ? 'revealTrans' : 'hiddenTrans'}`}
+>
 	<div class={`w-full flex h-full flex-row sm:h-auto sm:flex-col-reverse sm:mb-14 `}>
 		<div class="left w-full h-full sm:h-auto flex flex-col justify-around sm:gap-6">
 			<div class="flex flex-col sm:gap-6">
@@ -62,8 +64,7 @@
 					/>
 				</motion.div>
 			</div>
-			<p class="text-color-2 text-[12px] italic">Out of this world...</p>
-			<p class="h-[40px] items-center socials text-center flex gap-10 text-color-3 text-[20px]">
+			<p class="h-[40px] items-center socials text-center flex gap-10 text-color-3 text-[16px]">
 				<a href="/#">
 					<i class="fa-brands fa-facebook-f transition duration-[0.1s] hover:text-blue-500"></i>
 				</a>
