@@ -1,14 +1,23 @@
 <script>
 	import floxImage from '$src/assets/images/flox.webp';
+	import fontzeroImage from '$src/assets/images/fontzero.webp';
 
 	import ProjectCard from '$src/components/ProjectCard.svelte';
 	const items1 = [
 		{
 			image: floxImage,
 			title: 'Thefloxtv',
-			desc: 'Stream thousands of free movies and TV shows, with instant access to the latest blockbusters and timeless classics, all available across multiple devices'
+			desc: 'Stream thousands of free movies and TV shows, with instant access to the latest blockbusters and timeless classics, all available across multiple devices',
+			stacks: ['HTML', 'CSS', 'Next JS'],
+			url: 'https://thefloxtv.vercel.app/'
 		},
-		{ image: floxImage, title: 'Thefloxtv', desc: 'Watch free movies and tv shows' }
+		{
+			image: fontzeroImage,
+			title: 'Font Zer0',
+			desc: `Get full access to FontAwesome's premium icons, featuring a vast collection of high-quality icons that enhance your designs and projects with professional appeal.`,
+			stacks: ['HTML', 'SvelteKit'],
+			url: 'https://fontzero.vercel.app/'
+		}
 	];
 </script>
 
@@ -20,7 +29,7 @@
 			Work
 		</p>
 	</div>
-	<p class="text-[20px] sm:text-[14px] text-color-2 font-medium text-center">
+	<p class="text-[30px] sm:text-[18px] text-color-2 font-medium text-center">
 		Things I&apos;ve built so far:
 	</p>
 

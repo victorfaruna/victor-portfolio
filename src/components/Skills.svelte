@@ -35,7 +35,7 @@
 			Skills
 		</p>
 	</div>
-	<p class="text-[20px] sm:text-[14px] text-color-2 font-medium text-center">
+	<p class="text-[30px] sm:text-[18px] text-color-2 font-medium text-center">
 		The Skills, tools and technologies <br />i am really good at:
 	</p>
 
