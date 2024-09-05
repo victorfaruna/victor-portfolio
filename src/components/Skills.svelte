@@ -27,7 +27,7 @@
 	];
 </script>
 
-<div id="stackSection" class={`stack-container w-full flex flex-col gap-10 my-[13%] sm:my-[30%]`}>
+<div id="stackSection" class={`stack-container w-full flex flex-col gap-3 my-[13%] sm:my-[30%]`}>
 	<div class="text-center">
 		<p
 			class="py-2 px-6 bg-color-1/10 rounded-lg text-center inline-block text-color-1/90 text-[13px] shadow-sm"
