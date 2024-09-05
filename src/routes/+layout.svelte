@@ -2,7 +2,7 @@
 	import '../app.css';
 	import '../google-font.css';
 	import '../fa-icons.css';
-	import Header from '../components/common/Header.svelte';
+	import Header from '$components/Header.svelte';
 </script>
 
 <Header />

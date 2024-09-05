@@ -1,5 +1,5 @@
 <script>
-	import { theme } from '../../lib/store';
+	import { theme } from '$lib/store';
 
 	let currentTheme = $theme;
 	$: currentTheme = $theme;

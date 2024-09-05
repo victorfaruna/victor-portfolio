@@ -1,14 +1,14 @@
 <script>
-	import htmlLogo from '../../assets/logos/html.png';
-	import cssLogo from '../../assets/logos/css.png';
-	import jsLogo from '../../assets/logos/javascript.png';
-	import phpLogo from '../../assets/logos/php.png';
-	import reactLogo from '../../assets/logos/react.png';
-	import nextjsLogo from '../../assets/logos/nextjs.png';
-	import tailwindLogo from '../../assets/logos/tailwind.png';
-	import jqueryLogo from '../../assets/logos/jquery.png';
-	import sqlLogo from '../../assets/logos/sql.png';
-	import svelteLogo from '../../assets/logos/svelte.png';
+	import htmlLogo from '$src/assets/logos/html.png';
+	import cssLogo from '$src/assets/logos/css.png';
+	import jsLogo from '$src/assets/logos/javascript.png';
+	import phpLogo from '$src/assets/logos/php.png';
+	import reactLogo from '$src/assets/logos/react.png';
+	import nextjsLogo from '$src/assets/logos/nextjs.png';
+	import tailwindLogo from '$src/assets/logos/tailwind.png';
+	import jqueryLogo from '$src/assets/logos/jquery.png';
+	import sqlLogo from '$src/assets/logos/sql.png';
+	import svelteLogo from '$src/assets/logos/svelte.png';
 	import StackItem from './StackItem.svelte';
 
 	const items = [

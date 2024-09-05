@@ -22,7 +22,17 @@ html {
 	--color-4: 96, 10, 101;
 }
 
-* {
+:root body {
 	font-family: 'Poppins', sans-serif;
 	color: var(--color-1);
+	background-color: rgba(var(--bg-main));
+	background-image: radial-gradient(rgba(var(--color-1), 0.04) 2px, transparent 0);
+	background-size: 30px 30px;
+	background-position: -5px -5px;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }

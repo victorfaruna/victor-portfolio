@@ -1,5 +1,5 @@
 <script>
-	import Portrait from '../../assets/images/main.webp';
+	import Portrait from '$src/assets/images/main.webp';
 	let inView = true;
 </script>
 
@@ -7,14 +7,15 @@
 	<div class={`w-full flex h-full flex-row sm:h-auto sm:flex-col-reverse sm:mb-10 `}>
 		<div class="left w-full h-full sm:h-auto flex flex-col justify-around sm:gap-10">
 			<div>
-				<p class="text-[50px] text-color-1 font-bold sm:text-[30px] sm:mb-[10px] sm:text-center">
-					Dev<span class="text-color-2">.</span> Victor
+				<p class="text-[50px] text-color-1 sm:text-[30px] sm:mb-[10px] sm:text-center">
+					<span class="text-color-1/70">Hi, i&apos;m</span>
+					<br />
+					<span class="font-semibold">Victor Faruna</span><span class="text-color-2">.</span>
 				</p>
 				<p class="text-[15px] sm:text-[14px] text-color-3 font-medium sm:text-center">
 					A passionate{' '}
-					<span class="text-color-2 text-shadow-xl">web developer</span>{' '}
-					turning ideas into functional, visually stunning websites. I combine creativity and modern
-					tech to deliver seamless user experiences.
+					<span class="text-color-2 text-shadow-xl">&lt;Fullstack Web Developer/&gt;</span>{' '}
+					with 4+ years experience creating visually stunning and performant websites.
 				</p>
 			</div>
 			<div class="flex gap-[40px] sm:justify-between">
@@ -67,7 +68,7 @@
 					<i class="fa-brands fa-facebook-f transition duration-[0.1s] hover:text-blue-500"></i>
 				</a>
 				<a href="/#">
-					<i class="fa-brands fa-x-twitter transition duration-[0.1s] hover:text-white"></i>
+					<i class="fa-brands fa-x-twitter transition duration-[0.1s] hover:text-color-1"></i>
 				</a>
 				<a target="_blank" href="https://wa.me/+2349125165937/">
 					<i
