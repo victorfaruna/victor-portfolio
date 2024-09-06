@@ -7,7 +7,7 @@
 </script>
 
 <div
-	class={`w-[250px] h-auto rounded-2xl overflow-hidden bg-color-1/[0.03] border shadow-lg border-color-1/5 flex flex-col gap-2`}
+	class={`w-[250px] h-auto rounded-2xl overflow-hidden bg-main/90 border shadow-lg border-color-1/5 flex flex-col gap-2`}
 >
 	<img class="w-full object-cover" src={image} alt="Thefloxtv" />
 	<div class="px-4 pb-4 flex flex-col gap-2">
