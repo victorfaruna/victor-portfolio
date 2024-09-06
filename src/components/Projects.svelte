@@ -1,8 +1,11 @@
-<script>
+<script lang="ts">
 	import floxImage from '$src/assets/images/flox.webp';
 	import fontzeroImage from '$src/assets/images/fontzero.webp';
 
 	import ProjectCard from '$src/components/ProjectCard.svelte';
+	import IntersectionObserverSvelte from 'svelte-intersection-observer/IntersectionObserver.svelte';
+	let element: HTMLElement;
+	let intersecting: boolean;
 	const items1 = [
 		{
 			image: floxImage,
@@ -21,21 +24,27 @@
 	];
 </script>
 
-<div id="stackSection" class={`stack-container w-full flex flex-col gap-3 py-[2%] sm:py-[10%]`}>
-	<div class="text-center">
-		<p
-			class="py-2 px-6 bg-color-1/10 rounded-lg text-center inline-block text-color-1/90 text-[13px] shadow-sm"
-		>
-			Work
+<IntersectionObserverSvelte {element} bind:intersecting threshold={0.1} once>
+	<div
+		bind:this={element}
+		id="stackSection"
+		class={`stack-container w-full flex flex-col gap-3 py-[2%] sm:py-[10%] duration-[0.5s] transition-all ${intersecting ? 'opacity-1 translate-y-[0]' : 'opacity-0 translate-y-[200px]'}`}
+	>
+		<div class="text-center">
+			<p
+				class="py-2 px-6 bg-color-1/10 rounded-lg text-center inline-block text-color-1/90 text-[13px] shadow-sm"
+			>
+				Work
+			</p>
+		</div>
+		<p class="text-[30px] sm:text-[18px] text-color-2 font-medium text-center">
+			Things I&apos;ve built so far:
 		</p>
-	</div>
-	<p class="text-[30px] sm:text-[18px] text-color-2 font-medium text-center">
-		Things I&apos;ve built so far:
-	</p>
 
-	<div class="w-full sm:mt-5 flex gap-5 flex-wrap justify-center sm:px-[5%]">
-		{#each items1 as item}
-			<ProjectCard {...item} />
-		{/each}
+		<div class="w-full sm:mt-5 flex gap-5 flex-wrap justify-center sm:px-[5%]">
+			{#each items1 as item}
+				<ProjectCard {...item} />
+			{/each}
+		</div>
 	</div>
-</div>
+</IntersectionObserverSvelte>

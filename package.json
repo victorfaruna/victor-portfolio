@@ -27,6 +27,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"framer-motion": "^11.3.31"
+		"framer-motion": "^11.3.31",
+		"svelte-intersection-observer": "^1.0.0"
 	}
 }
