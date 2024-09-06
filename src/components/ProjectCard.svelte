@@ -7,14 +7,14 @@
 </script>
 
 <div
-	class={`w-[250px] h-auto rounded-2xl overflow-hidden bg-color-1/[0.01] backdrop-blur-[4px] border border-color-1/5 flex flex-col gap-2`}
+	class={`w-[250px] h-auto rounded-2xl overflow-hidden bg-color-1/[0.02] backdrop-blur-[4px] border drop-shadow-lg border-color-1/5 flex flex-col gap-2`}
 >
 	<img class="w-full object-cover" src={image} alt="Thefloxtv" />
 	<div class="px-4 pb-4 flex flex-col gap-2">
 		<p class="text-color-1 font-semibold">
 			{title}
 		</p>
-		<p class="text-color-3/50 text-[12px]">{desc}</p>
+		<p class="text-color-1/70 text-[12px]">{desc}</p>
 		<p class="flex gap-3">
 			{#each stacks as stack}
 				<span
