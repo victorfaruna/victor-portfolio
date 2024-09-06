@@ -39,7 +39,7 @@
 	<div
 		bind:this={element}
 		id="stackSection"
-		class={`stack-container w-full flex flex-col gap-3 py-[2%] sm:py-[10%] duration-[0.8s] ease-in-out transition-all ${intersecting ? 'opacity-1 translate-y-[0]' : 'opacity-0 translate-y-[200px]'}`}
+		class={`stack-container w-full flex flex-col gap-3 py-[2%] sm:py-[10%] duration-[1s] ease-in-out transition-all ${intersecting ? 'opacity-1 translate-y-[0]' : 'opacity-0 translate-y-[100px]'}`}
 	>
 		<div class="text-center">
 			<p
