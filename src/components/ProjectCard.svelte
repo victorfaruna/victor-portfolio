@@ -7,7 +7,7 @@
 </script>
 
 <div
-	class={`w-[250px] h-auto rounded-2xl overflow-hidden bg-color-1/[0.02] backdrop-blur-[4px] border drop-shadow-lg border-color-1/5 flex flex-col gap-2`}
+	class={`w-[250px] h-auto rounded-2xl overflow-hidden bg-color-1/[0.02] border shadow-lg border-color-1/5 flex flex-col gap-2`}
 >
 	<img class="w-full object-cover" src={image} alt="Thefloxtv" />
 	<div class="px-4 pb-4 flex flex-col gap-2">
@@ -17,9 +17,7 @@
 		<p class="text-color-1/70 text-[12px]">{desc}</p>
 		<p class="flex gap-3">
 			{#each stacks as stack}
-				<span
-					class="bg-color-1/[0.1] backdrop-blur-[5px] px-2 py-1 text-color-1/50 rounded-lg text-[9px]"
-					>{stack}</span
+				<span class="bg-color-1/[0.1] px-2 py-1 text-color-1/50 rounded-lg text-[9px]">{stack}</span
 				>
 			{/each}
 		</p>
