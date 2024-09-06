@@ -1,7 +1,7 @@
 import { writable } from 'svelte/store';
 
 // Check local storage for an existing theme, or default to 'light'
-const initialTheme = (typeof window !== 'undefined' && localStorage.getItem('theme')) || 'dark';
+const initialTheme = (typeof window !== 'undefined' && localStorage.getItem('theme')) || '';
 
 export const theme = writable(initialTheme);
 
