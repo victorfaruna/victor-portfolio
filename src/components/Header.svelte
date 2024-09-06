@@ -1,7 +1,17 @@
-<script>
+<script lang="ts">
 	import { goto } from '$app/navigation';
 	import Logo from './Logo.svelte';
 	import ThemeToggle from './ThemeToggle.svelte';
+
+	export const pageScrollTo = ({
+		id,
+		behavior = 'smooth'
+	}: {
+		id: string;
+		behavior?: ScrollBehavior;
+	}) => {
+		document.getElementById(id)?.scrollIntoView({ behavior: behavior });
+	};
 </script>
 
 <header class="w-full h-[100px] flex items-center px-[5%]">
@@ -11,38 +21,57 @@
 		<Logo />
 		<nav class="sm:hidden flex items-center">
 			<ul class="flex gap-10 text-color-3 text-[12px] items-center">
-				<button class="cursor-pointer">
-					<li class="font-medium">Home</li>
-				</button>
-				<button
-					class="cursor-pointer"
-					on:click={() =>
-						document.getElementById('stackSection')?.scrollIntoView({ behavior: 'smooth' })}
-				>
-					<li class="font-medium">About me</li>
-				</button>
-				<button
-					class="cursor-pointer"
-					on:click={() =>
-						document.getElementById('stackSection')?.scrollIntoView({ behavior: 'smooth' })}
-				>
-					<li class="font-medium">Skills</li>
-				</button>
-				<button
-					class="cursor-pointer"
-					on:click={() =>
-						document.getElementById('stackSection')?.scrollIntoView({ behavior: 'smooth' })}
-				>
-					<li class="font-medium">Work</li>
-				</button>
-				<button class="cursor-pointer">
-					<li class="font-medium">Experience</li>
-				</button>
+				<li>
+					<button
+						class="cursor-pointer"
+						name="Home"
+						on:click={() => pageScrollTo({ id: 'stackSection' })}
+					>
+						<p class="font-medium">Home</p>
+					</button>
+				</li>
+				<li>
+					<button
+						name="About me"
+						class="cursor-pointer"
+						on:click={() => pageScrollTo({ id: 'stackSection' })}
+					>
+						<p class="font-medium">About me</p>
+					</button>
+				</li>
+				<li>
+					<button
+						name="Skills"
+						class="cursor-pointer"
+						on:click={() => pageScrollTo({ id: 'stackSection' })}
+					>
+						<p class="font-medium">Skills</p>
+					</button>
+				</li>
+				<li>
+					<button
+						name="Work"
+						class="cursor-pointer"
+						on:click={() => pageScrollTo({ id: 'stackSection' })}
+					>
+						<p class="font-medium">Work</p>
+					</button>
+				</li>
+				<li>
+					<button
+						name="Experience"
+						class="cursor-pointer"
+						on:click={() => pageScrollTo({ id: 'stackSection' })}
+					>
+						<p class="font-medium">Experience</p>
+					</button>
+				</li>
 			</ul>
 		</nav>
 		<div class="right flex gap-3 items-center">
 			<ThemeToggle />
 			<button
+				name="Contact me"
 				class="btn w-[120px] h-[30px] rounded-lg bg-color-2 text-[11px] font-medium text-white"
 				on:click={() => goto('https://wa.me/2349125165937')}
 			>

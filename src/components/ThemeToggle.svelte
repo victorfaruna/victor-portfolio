@@ -12,6 +12,7 @@
 </script>
 
 <button
+	name="Theme Toggle"
 	class="w-[30px] h-[30px] center-div rounded-md bg-color-2/20 cursor-pointer text-color-1 text-[16px]"
 	on:click={toggleTheme}
 >
