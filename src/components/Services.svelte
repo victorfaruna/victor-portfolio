@@ -1,5 +1,10 @@
-<script>
+<script lang="ts">
 	import ServiceCard from './ServiceCard.svelte';
+
+	import IntersectionObserverSvelte from 'svelte-intersection-observer';
+
+	let element: HTMLElement;
+	let intersecting: boolean;
 	let items = [
 		{
 			id: 1,
@@ -25,13 +30,18 @@
 	];
 </script>
 
-<div class={`w-full my-[8%] sm:my-[10%]`}>
-	<p class="text-[40px] sm:text-[25px] text-color-1 font-semibold text-center mb-10">
-		Services I Offer<span class="text-color-2">.</span>
-	</p>
-	<div class="flex gap-5 sm:flex-col">
-		{#each items as item}
-			<ServiceCard {...item} />
-		{/each}
+<IntersectionObserverSvelte {element} bind:intersecting threshold={0.1} once>
+	<div
+		bind:this={element}
+		class={`w-full my-[8%] sm:my-[10%]  duration-[1s] ease-in-out transition-all ${intersecting ? 'opacity-1 translate-y-[0]' : 'opacity-0 translate-y-[100px]'}`}
+	>
+		<p class="text-[40px] sm:text-[25px] text-color-1 font-semibold text-center mb-10">
+			Services I Offer<span class="text-color-2">.</span>
+		</p>
+		<div class="flex gap-5 justify-center flex-wrap">
+			{#each items as item}
+				<ServiceCard {...item} />
+			{/each}
+		</div>
 	</div>
-</div>
+</IntersectionObserverSvelte>

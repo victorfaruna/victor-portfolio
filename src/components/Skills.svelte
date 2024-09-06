@@ -46,7 +46,7 @@
 			</p>
 		</div>
 		<p class="text-[30px] sm:text-[18px] text-color-2 font-medium text-center">
-			The Skills, tools and technologies <br />i am really good at:
+			Skills, tools and technologies <br />I am really good at:
 		</p>
 
 		<div class="w-full sm:mt-5 flex gap-7 flex-wrap justify-center px-[20%] lg:px-[5%]">

@@ -1,11 +1,11 @@
-<script>
+<script lang="ts">
 	export let icon;
 	export let title;
 	export let desc;
 </script>
 
 <div
-	class={`w-full h-auto transition-all duration-500 rounded-sm shadow-lg border-color-1/[0.15] bg-color-1/[0.01] p-4 flex flex-col gap-4 overflow-hidden`}
+	class={`w-[350px] sm:w-[85%] h-auto rounded-2xl shadow-2xl border border-color-1/10 bg-main/90 p-4 flex flex-col gap-4 overflow-hidden`}
 >
 	<i class={`text-[50px] text-color-2 ${icon}`}></i>
 	<p class="text-color-1 font-semibold">

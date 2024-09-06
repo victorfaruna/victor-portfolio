@@ -10,7 +10,7 @@
 		<div class="left w-full h-full sm:h-auto flex flex-col justify-around sm:gap-6">
 			<div class="flex flex-col gap-3 sm:gap-6">
 				<p class="text-[60px] text-color-1 sm:text-[30px] leading-none">
-					<span class="text-[50px] sm:text-[40px] text-color-1/70">Hi, i&apos;m</span>
+					<span class="text-[50px] sm:text-[40px] text-color-1/70">Hi, I&apos;m</span>
 					<br />
 					<span class="font-semibold">Victor Faruna</span><span class="text-color-2">.</span>
 				</p>

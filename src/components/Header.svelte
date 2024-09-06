@@ -1,5 +1,6 @@
 <script>
 	import { goto } from '$app/navigation';
+	import Logo from './Logo.svelte';
 	import ThemeToggle from './ThemeToggle.svelte';
 </script>
 
@@ -7,13 +8,7 @@
 	<div
 		class="inner w-full p-3 bg-color-1/[0.0001] backdrop-blur-[2px] rounded-2xl border border-color-1/10 flex justify-between shadow-md shadow-color-1/[0.02]"
 	>
-		<div class="logo text-color-1 text-[22px] sm:text-[18px] font-medium">
-			<a href={`/`}>
-				<span class="text-color-2 font-medium">&lt;V</span>ictor<span
-					class="text-color-2 font-medium">/&gt;</span
-				></a
-			>
-		</div>
+		<Logo />
 		<nav class="sm:hidden flex items-center">
 			<ul class="flex gap-10 text-color-3 text-[12px] items-center">
 				<button class="cursor-pointer">
