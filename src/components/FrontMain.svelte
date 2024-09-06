@@ -58,7 +58,7 @@
 				>
 					<img
 						class="rounded-full w-full h-full object-cover bg-neutral-800"
-						src={'/images/main.webp'}
+						src={'/images/main_800.webp'}
 						alt=""
 					/>
 				</motion.div>
