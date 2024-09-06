@@ -1,15 +1,11 @@
 <script lang="ts">
-	import floxImage from '$src/assets/images/flox.webp';
-	import fontzeroImage from '$src/assets/images/fontzero.webp';
-	import quizicalImage from '$src/assets/images/quizical.webp';
-
 	import ProjectCard from '$src/components/ProjectCard.svelte';
 	import IntersectionObserverSvelte from 'svelte-intersection-observer/IntersectionObserver.svelte';
 	let element: HTMLElement;
 	let intersecting: boolean;
 	const items1 = [
 		{
-			image: floxImage,
+			image: '/images/flox.webp',
 			title: 'Thefloxtv',
 			desc: 'Stream thousands of free movies and TV shows, with instant access to the latest blockbusters and timeless classics, all available across multiple devices',
 			stacks: ['HTML', 'CSS', 'Next JS'],
@@ -17,7 +13,7 @@
 			url: 'https://thefloxtv.vercel.app/'
 		},
 		{
-			image: fontzeroImage,
+			image: '/images/fontzero.webp',
 			title: 'Font Zer0',
 			desc: `Get full access to FontAwesome's premium icons, featuring a vast collection of high-quality icons that enhance your designs and projects with professional appeal.`,
 			stacks: ['HTML', 'SvelteKit'],
@@ -25,7 +21,7 @@
 			url: 'https://fontzero.vercel.app/'
 		},
 		{
-			image: quizicalImage,
+			image: '/images/quizical.webp',
 			title: 'Quizical AI',
 			desc: `A quiz web app that generates custom computer-based tests (CBTs) from any topic prompt. Simply enter a subject, and the app creates personalized quizzes to test your knowledge. Perfect for learning and exam prep!`,
 			stacks: ['SvelteKit', 'Drizzle'],

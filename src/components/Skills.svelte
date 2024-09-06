@@ -1,34 +1,21 @@
 <script lang="ts">
-	import htmlLogo from '$src/assets/logos/html.png';
-	import cssLogo from '$src/assets/logos/css.png';
-	import jsLogo from '$src/assets/logos/javascript.png';
-	import phpLogo from '$src/assets/logos/php.png';
-	import reactLogo from '$src/assets/logos/react.png';
-	import nextjsLogo from '$src/assets/logos/nextjs.png';
-	import tailwindLogo from '$src/assets/logos/tailwind.png';
-	import jqueryLogo from '$src/assets/logos/jquery.png';
-	import svelteLogo from '$src/assets/logos/svelte.png';
-	import postgresLogo from '$src/assets/logos/postgres.png';
-	import npmLogo from '$src/assets/logos/npm.png';
-
 	import SkillItem from '$components/SkillItem.svelte';
-
 	import IntersectionObserver from 'svelte-intersection-observer';
 
 	let element: HTMLElement;
 	let intersecting: boolean;
 	const items1 = [
-		{ name: 'HTML', src: htmlLogo },
-		{ name: 'CSS', src: cssLogo },
-		{ name: 'JavaScript', src: jsLogo },
-		{ name: 'PHP', src: phpLogo },
-		{ name: 'React', src: reactLogo },
-		{ name: 'Next.js', src: nextjsLogo },
-		{ name: 'jQuery', src: jqueryLogo },
-		{ name: 'Svelte', src: svelteLogo },
-		{ name: 'Tailwind', src: tailwindLogo },
-		{ name: 'Postgres', src: postgresLogo },
-		{ name: 'npm', src: npmLogo }
+		{ name: 'HTML', src: '/logos/html.webp' },
+		{ name: 'CSS', src: '/logos/css.webp' },
+		{ name: 'JavaScript', src: '/logos/javascript.webp' },
+		{ name: 'PHP', src: '/logos/php.webp' },
+		{ name: 'React', src: '/logos/react.webp' },
+		{ name: 'Next.js', src: '/logos/nextjs.webp' },
+		{ name: 'jQuery', src: '/logos/jquery.webp' },
+		{ name: 'Svelte', src: '/logos/svelte.webp' },
+		{ name: 'Tailwind', src: '/logos/tailwind.webp' },
+		{ name: 'Postgres', src: '/logos/postgres.webp' },
+		{ name: 'npm', src: '/logos/npm.webp' }
 	];
 </script>
 

@@ -1,5 +1,4 @@
 <script>
-	import Portrait from '$src/assets/images/main.webp';
 	let inView = true;
 </script>
 
@@ -59,7 +58,7 @@
 				>
 					<img
 						class="rounded-full w-full h-full object-cover bg-neutral-800"
-						src={Portrait}
+						src={'/images/main.webp'}
 						alt=""
 					/>
 				</motion.div>
