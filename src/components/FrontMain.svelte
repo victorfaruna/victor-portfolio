@@ -38,7 +38,7 @@
 		</div>
 		<div class="right w-full h-full flex flex-col gap-5 items-center justify-center sm:mb-10">
 			<div
-				class="dhh w-[360px] h-[360px] bg-transparent rounded-full flex justify-center items-center p-1 sm:w-[250px] sm:h-[250px] drop-shadow-2xl relative"
+				class="dhh mask mask-hexagon w-[360px] h-[360px] bg-transparent rounded-full flex justify-center items-center p-1 sm:w-[250px] sm:h-[250px] drop-shadow-2xl relative"
 			>
 				<div class="bg-[rebeccapurple] w-full h-full absolute z-[1] rounded-full"></div>
 				<motion.div
@@ -57,7 +57,7 @@
 					}}
 				>
 					<img
-						class="rounded-full w-full h-full object-cover bg-neutral-800"
+						class=" rounded-full w-full h-full object-cover bg-neutral-800"
 						src={'/images/main_800.webp'}
 						alt=""
 					/>

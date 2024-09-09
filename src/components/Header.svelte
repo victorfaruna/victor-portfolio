@@ -22,11 +22,7 @@
 		<nav class="sm:hidden flex items-center">
 			<ul class="flex gap-10 text-color-3 text-[12px] items-center">
 				<li>
-					<button
-						class="cursor-pointer"
-						name="Home"
-						on:click={() => pageScrollTo({ id: 'stackSection' })}
-					>
+					<button class="cursor-pointer" name="Home">
 						<p class="font-medium">Home</p>
 					</button>
 				</li>
@@ -75,7 +71,8 @@
 				class="btn w-[120px] h-[30px] rounded-lg bg-color-2 text-[11px] flex items-center justify-center gap-1 font-medium text-white"
 				on:click={() => goto('https://wa.me/2349125165937')}
 			>
-				Contact Me &nbsp; <svg
+				<span>Contact Me</span>
+				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					fill="none"
 					viewBox="0 0 24 24"
