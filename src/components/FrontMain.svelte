@@ -17,7 +17,7 @@
 					with 4+ years experience creating visually stunning and performant websites.
 				</p>
 				<button
-					class="w-[150px] h-[35px] text-[0.8rem] px-4 py-2 rounded-2xl sm:rounded-md bg-black"
+					class="w-[150px] h-[35px] text-[0.8rem] px-4 py-2 rounded-2xl sm:rounded-md bg-main"
 					style="box-shadow: 3px 3px rgba(var(--color-2), 0.5);">Get in touch</button
 				>
 			</div>
