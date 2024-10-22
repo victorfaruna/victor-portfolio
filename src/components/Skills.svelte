@@ -23,7 +23,7 @@
 	<div
 		bind:this={element}
 		id="stackSection"
-		class={`stack-container w-full flex flex-col gap-3 my-[13%] sm:my-[30%] duration-[1s] ease-in-out transition-all ${intersecting ? 'opacity-1 translate-y-[0]' : 'opacity-0 translate-y-[100px]'}`}
+		class={`stack-container w-full flex flex-col gap-3 my-[13%] sm:my-[30%] duration-[1s] ease-in-out transition-all ${intersecting ? 'opacity-1 translate-y-[0]' : 'opacity-0 translate-y-[50px]'}`}
 	>
 		<div class="text-center">
 			<p

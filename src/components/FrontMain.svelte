@@ -4,8 +4,8 @@
 
 <main class={`w-full sm:mt-10 h-[600px] sm:h-auto ${inView ? 'revealTrans' : 'hiddenTrans'}`}>
 	<div class={`w-full flex h-full flex-row sm:h-auto sm:flex-col-reverse sm:mb-14 `}>
-		<div class="left w-full h-full sm:h-auto flex flex-col justify-around sm:gap-6">
-			<div class="flex flex-col gap-3 sm:gap-6">
+		<div class="left w-full h-full sm:h-auto flex flex-col justify-around items-center sm:gap-6">
+			<div class="flex flex-col gap-3 sm:gap-6 text-center">
 				<p class="text-[60px] text-color-1 sm:text-[30px] leading-none">
 					<span class="text-[50px] sm:text-[40px] text-color-1/70">Hi, I&apos;m</span>
 					<br />
@@ -16,10 +16,31 @@
 					<span class="text-color-2 text-shadow-xl">&lt;Fullstack Web Developer/&gt;</span>{' '}
 					with 4+ years experience creating visually stunning and performant websites.
 				</p>
-				<button
-					class="w-[150px] h-[35px] text-[0.8rem] px-4 py-2 rounded-2xl sm:rounded-md bg-main"
-					style="box-shadow: 3px 3px rgba(var(--color-2), 0.5);">Get in touch</button
-				>
+				<div class="buttons gap-5 sm:gap-2 flex justify-center flex-wrap">
+					<button
+						class="w-[150px] h-[40px] sm:w-[130px] text-[0.8rem] px-4 py-2 rounded-[1.5rem] bg-main border border-color-1/40"
+						>Get in touch</button
+					>
+					<button
+						class="w-[150px] h-[40px] sm:w-[130px] text-[0.8rem] px-4 py-2 rounded-[1.5rem] bg-color-1/80 text-main flex gap-2 justify-center align-center"
+					>
+						Resume
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="size-4"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
+							/>
+						</svg>
+					</button>
+				</div>
 			</div>
 			<div class="flex gap-[40px] sm:justify-between">
 				<div class="flex flex-col text-[12px] font-semibold text-color-1">
