@@ -11,7 +11,7 @@
 					<br />
 					<span class="font-semibold">Victor Faruna</span><span class="text-color-2">.</span>
 				</p>
-				<p class="text-[15px] sm:text-[14px] text-color-3 font-medium">
+				<p class="text-[15px] sm:text-[13px] text-color-3 font-medium">
 					A passionate{' '}
 					<span class="text-color-2 text-shadow-xl">&lt;Fullstack Web Developer/&gt;</span>{' '}
 					with 4+ years experience creating visually stunning and performant websites.
