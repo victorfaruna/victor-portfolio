@@ -1,4 +1,5 @@
 <script>
+	import Contact from '$components/Contact.svelte';
 	import FrontMain from '$components/FrontMain.svelte';
 	import Projects from '$components/Projects.svelte';
 	import Services from '$components/Services.svelte';
@@ -10,4 +11,5 @@
 	<Skills />
 	<Projects />
 	<Services />
+	<Contact />
 </div>

@@ -21,7 +21,7 @@
 		<Logo />
 		<nav class="sm:hidden flex items-center">
 			<ul class="flex gap-10 text-color-3 text-[12px] items-center">
-				<li>
+				<li class="active">
 					<button class="cursor-pointer" name="Home">
 						<p class="font-medium">Home</p>
 					</button>
@@ -32,7 +32,7 @@
 						class="cursor-pointer"
 						on:click={() => pageScrollTo({ id: 'stackSection' })}
 					>
-						<p class="font-medium">About me</p>
+						<p class="font-medium">Skills</p>
 					</button>
 				</li>
 				<li>
@@ -41,7 +41,7 @@
 						class="cursor-pointer"
 						on:click={() => pageScrollTo({ id: 'stackSection' })}
 					>
-						<p class="font-medium">Skills</p>
+						<p class="font-medium">Projects</p>
 					</button>
 				</li>
 				<li>
@@ -50,7 +50,7 @@
 						class="cursor-pointer"
 						on:click={() => pageScrollTo({ id: 'stackSection' })}
 					>
-						<p class="font-medium">Work</p>
+						<p class="font-medium">Work Experience</p>
 					</button>
 				</li>
 				<li>
@@ -90,3 +90,21 @@
 		</div>
 	</div>
 </header>
+
+<style>
+	.active {
+		position: relative;
+	}
+
+	.active::after {
+		content: '';
+		position: absolute;
+		bottom: -7px;
+		left: 0;
+		width: 30px;
+		height: 4px;
+		background-color: rgb(var(--color-1), 0.6);
+		border-radius: 100px;
+		left: calc(50% - 15px);
+	}
+</style>

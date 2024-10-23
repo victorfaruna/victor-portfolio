@@ -21,7 +21,9 @@
 						class="w-[150px] h-[40px] sm:w-[130px] text-[0.8rem] px-4 py-2 rounded-[1.5rem] bg-main border border-color-1/40"
 						>Get in touch</button
 					>
-					<button
+					<a
+						href="/victor-faruna-resume"
+						download
 						class="w-[150px] h-[40px] sm:w-[130px] text-[0.8rem] px-4 py-2 rounded-[1.5rem] bg-color-1/80 text-main flex gap-2 justify-center align-center"
 					>
 						Resume
@@ -39,7 +41,7 @@
 								d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
 							/>
 						</svg>
-					</button>
+					</a>
 				</div>
 			</div>
 			<div class="flex gap-[40px] sm:justify-between">
