@@ -69,7 +69,7 @@
 			<button
 				name="Contact me"
 				class="w-[120px] h-[30px] rounded-lg bg-color-2 text-[11px] flex items-center justify-center gap-1 font-medium text-white"
-				on:click={() => goto('https://wa.me/2349125165937')}
+				on:click={() => goto('mailto:farunavictor043@gmail.com?subject=Contact from Portfolio')}
 			>
 				<span>Contact Me</span>
 				<svg

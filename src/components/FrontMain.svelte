@@ -22,7 +22,7 @@
 						>Get in touch</button
 					>
 					<a
-						href="/victor-faruna-resume"
+						href="/victor-faruna-resume.pdf"
 						download
 						class="w-[150px] h-[40px] sm:w-[130px] text-[0.8rem] px-4 py-2 rounded-[1.5rem] bg-color-1/80 text-main flex gap-2 justify-center align-center"
 					>
