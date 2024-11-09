@@ -17,9 +17,10 @@
 					with 4+ years experience creating visually stunning and performant websites.
 				</p>
 				<div class="buttons gap-5 sm:gap-2 flex justify-center flex-wrap">
-					<button
+					<a
+						href="mailto:farunavictor043@gmail.com?subject=Contact from Portfolio'"
 						class="w-[150px] h-[40px] sm:w-[130px] text-[0.8rem] px-4 py-2 rounded-[1.5rem] bg-main border border-color-1/40"
-						>Get in touch</button
+						>Get in touch</a
 					>
 					<a
 						href="/victor-faruna-resume.pdf"
