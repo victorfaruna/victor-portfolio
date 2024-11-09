@@ -66,10 +66,10 @@
 		</nav>
 		<div class="right flex gap-3 items-center">
 			<ThemeToggle />
-			<button
-				name="Contact me"
+
+			<a
+				href="mailto:farunavictor043@gmail.com?subject=Contact from Portfolio'"
 				class="w-[120px] h-[30px] rounded-lg bg-color-2 text-[11px] flex items-center justify-center gap-1 font-medium text-white"
-				on:click={() => goto('mailto:farunavictor043@gmail.com?subject=Contact from Portfolio')}
 			>
 				<span>Contact Me</span>
 				<svg
@@ -86,7 +86,7 @@
 						d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5"
 					/>
 				</svg>
-			</button>
+			</a>
 		</div>
 	</div>
 </header>
