@@ -10,7 +10,7 @@
 			desc: 'Stream thousands of free movies and TV shows, with instant access to the latest blockbusters and timeless classics, all available across multiple devices',
 			stacks: ['HTML', 'CSS', 'Next JS'],
 			status: 'live',
-			url: 'https://thefloxtv.vercel.app/'
+			url: 'https://thefloxtv-svelte.vercel.app/'
 		},
 		{
 			image: '/images/fontzero.webp',
