@@ -14,7 +14,7 @@
 			Love to hear from you,<br /> Get in touch &#128075;
 		</p>
 		<div class="form-cont w-full flex justify-center">
-			<form>
+			<form on:submit={(e) => e.preventDefault()}>
 				<div class="inputs">
 					<input type="text" placeholder="Your Name" />
 					<input type="text" placeholder="Your Email" />
@@ -22,7 +22,7 @@
 
 				<textarea name="" id="" placeholder="Your Message"></textarea>
 				<button
-					class="flex items-center justify-center gap-2 w-1/2 h-[37px] bg-color-1/90 text-[12px] text-main"
+					class="flex items-center justify-center gap-2 w-1/2 sm:w-full sm:h-[40px] h-[37px] bg-color-1/90 text-[12px] text-main"
 				>
 					<p>Send Now</p>
 					<svg
