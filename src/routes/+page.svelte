@@ -19,9 +19,9 @@
 </div>
 
 <style>
-	@media screen and (min-width: 2000px) {
+	@media screen and (min-width: 1400px) {
 		.outer-container {
-			width: 1900px;
+			width: 1400px;
 			margin: 0 auto;
 		}
 	}
