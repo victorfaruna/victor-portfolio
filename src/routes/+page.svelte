@@ -19,7 +19,7 @@
 </div>
 
 <style>
-	@media screaan and (min-width: 2000px) {
+	@media screen and (min-width: 2000px) {
 		.outer-container {
 			width: 1900px;
 			margin: 0 auto;
