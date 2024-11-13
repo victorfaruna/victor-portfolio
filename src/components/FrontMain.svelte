@@ -3,6 +3,7 @@
 </script>
 
 <main class={`w-full sm:mt-10 h-[600px] sm:h-auto ${inView ? 'revealTrans' : 'hiddenTrans'}`}>
+	<div></div>
 	<div class={`w-full flex h-full flex-row sm:h-auto sm:flex-col-reverse sm:mb-14 `}>
 		<div class="left w-full h-full sm:h-auto flex flex-col justify-around items-center sm:gap-6">
 			<div class="flex flex-col gap-3 sm:gap-6 text-center">
