@@ -10,16 +10,16 @@
 				<p class="text-[60px] text-color-1 sm:text-[30px] leading-none">
 					<span class="text-[50px] sm:text-[40px] text-color-1/70">Hi, I&apos;m</span>
 					<br />
-					<span class="font-semibold">Victor Faruna</span><span class="text-color-2">.</span>
+					<span class="font-semibold">Korede Ajayi</span><span class="text-color-2">.</span>
 				</p>
 				<p class="text-[15px] sm:text-[13px] text-color-3 font-medium">
 					A passionate{' '}
-					<span class="text-color-2 text-shadow-xl">&lt;Fullstack Web Developer/&gt;</span>{' '}
-					with 4+ years experience creating visually stunning and performant websites.
+					<span class="text-color-2 text-shadow-xl">&lt; Web Developer/&gt;</span>{' '}
+					with 2+ years experience creating visually stunning and performant websites.
 				</p>
 				<div class="buttons gap-5 sm:gap-2 flex justify-center flex-wrap">
 					<a
-						href="mailto:farunavictor043@gmail.com?subject=Contact from Portfolio'"
+						href="mailto:omokoreayode@gmail.com?subject=Contact%20from%20Portfolio"
 						class="w-[150px] h-[40px] sm:w-[130px] text-[0.8rem] px-4 py-2 rounded-[1.5rem] bg-main border border-color-1/40"
 						>Get in touch</a
 					>
@@ -54,7 +54,7 @@
 
 				<div class="flex flex-col text-[12px] font-semibold text-color-1">
 					<p class="top text-color-2">Experience</p>
-					<p class="bottom text-[16px]">4+ years</p>
+					<p class="bottom text-[16px]">2+ years</p>
 				</div>
 
 				<div class="flex flex-col text-[12px] font-semibold text-color-1">
@@ -115,7 +115,7 @@
 						/>
 					</svg>
 				</a>
-				<a target="_blank" href="https://wa.me/+2349125165937/" aria-label="Whatsapp">
+				<a target="_blank" href="https://wa.me/+2347043673366/" aria-label="Whatsapp">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="currentColor"
@@ -129,7 +129,7 @@
 				</a>
 				<a
 					target="_blank"
-					href="https://www.linkedin.com/in/victor-faruna-19a1b0238/"
+					href="https://www.linkedin.com/in/koredeajayi-dev/"
 					aria-label="Linkedin"
 				>
 					<svg

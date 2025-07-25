@@ -8,7 +8,6 @@
 		{ name: 'HTML', src: '/logos/html.webp' },
 		{ name: 'CSS', src: '/logos/css.webp' },
 		{ name: 'JavaScript', src: '/logos/javascript.webp' },
-		{ name: 'PHP', src: '/logos/php.webp' },
 		{ name: 'React', src: '/logos/react.webp' },
 		{ name: 'Next.js', src: '/logos/nextjs.webp' },
 		{ name: 'jQuery', src: '/logos/jquery.webp' },

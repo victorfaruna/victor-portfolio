@@ -68,7 +68,7 @@
 			<ThemeToggle />
 
 			<a
-				href="mailto:farunavictor043@gmail.com?subject=Contact from Portfolio'"
+				href="mailto:omokoreayode@gmail.com?subject=Contact%20from%20Portfolio"
 				class="w-[120px] h-[30px] rounded-lg bg-color-2 text-[11px] flex items-center justify-center gap-1 font-medium text-white"
 			>
 				<span>Contact Me</span>

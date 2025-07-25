@@ -5,12 +5,12 @@
 	let intersecting: boolean;
 	const items1 = [
 		{
-			image: '/images/flox.webp',
-			title: 'Thefloxtv',
-			desc: 'Stream thousands of free movies and TV shows, with instant access to the latest blockbusters and timeless classics, all available across multiple devices',
+			image: '/images/fintech.webp',
+			title: 'Fintech Landing Page',
+			desc: 'A landing page for a fintech startup, showcasing their services, products, and team members.',
 			stacks: ['HTML', 'CSS', 'Next JS'],
 			status: 'live',
-			url: 'https://thefloxtv-svelte.vercel.app/'
+			url: 'https://gimme-finance.vercel.app/'
 		},
 		{
 			image: '/images/fontzero.webp',

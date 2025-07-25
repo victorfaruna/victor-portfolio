@@ -8,13 +8,13 @@
 	let items = [
 		{
 			icon: 'fa-solid fa-code',
-			title: 'Fullstack Development',
-			desc: 'I create end-to-end solutions, handling both frontend and backend development with React, Next.js, Python, and PHP to deliver complete, efficient web and mobile applications.'
+			title: 'Web Development',
+			desc: 'I create end-to-end solutions, handling both frontend and backend development with React, Next.js to deliver complete, efficient web and mobile applications.'
 		},
 		{
 			icon: 'fa-regular fa-mobile',
-			title: 'Mobile App Development',
-			desc: 'I build cross-platform mobile applications using React Native, delivering smooth, responsive user experiences for both iOS and Android devices.'
+			title: 'Brand Marketing',
+			desc: 'I develop and execute marketing strategies, leveraging digital marketing channels to drive brand awareness, generate leads, and drive conversions.'
 		},
 		{
 			icon: 'fa-regular fa-pen-nib',
