@@ -24,7 +24,7 @@
 						>Get in touch</a
 					>
 					<a
-						href="/victor-faruna-resume.pdf"
+						href="/korede-resume.pdf"
 						download
 						class="w-[150px] h-[40px] sm:w-[130px] text-[0.8rem] px-4 py-2 rounded-[1.5rem] bg-color-1/80 text-main flex gap-2 justify-center align-center"
 					>
@@ -103,7 +103,7 @@
 						/>
 					</svg>
 				</a>
-				<a href="/#" aria-label="Twitter">
+				<a href="https://x.com/0xKorede_" aria-label="Twitter">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="currentColor"
